@@ -19113,6 +19113,11 @@ h3.title-style {
   color: #fff;
 }
 
+p.title-style {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
 
 @media (max-width:991px) {
   h3.title-style {
@@ -19689,6 +19694,16 @@ ul.single-info li a {
   color: #D3D3D3;
   margin-top: 15px;
 }
+.description a {
+  color: #D3D3D3;
+  margin-top: 15px;
+}
+
+.description a:hover{
+  color: var(--primary-color);
+
+}
+
 
 
 .w3l-timeline-1 .main {
@@ -20036,6 +20051,17 @@ h2.title {
   font-weight: 600;
   text-align: center;
   margin-top: 50px;
+  
+}
+
+.title a {
+  color: #fff;
+}
+
+
+
+.title a:hover{
+  color: var(--primary-color);
 }
 
 p.inner-page-para {
