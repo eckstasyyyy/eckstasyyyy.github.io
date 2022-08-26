@@ -19470,7 +19470,7 @@ ul.single-info li p {
 ul.single-info li a {
   font-size: 16px;
   margin-left: 12px;
-  color: #fff;
+  color: var(--primary-color);
 
 
 }
@@ -19695,9 +19695,11 @@ ul.single-info li a {
   margin-top: 15px;
 }
 .description a {
-  color: #D3D3D3;
+  color: var(--primary-color);
   margin-top: 15px;
 }
+
+
 
 .description a:hover{
   color: var(--primary-color);
@@ -20055,12 +20057,19 @@ h2.title {
 }
 
 .title a {
+  
   color: #fff;
 }
 
 
 
-.title a:hover{
+
+
+.title a{
+  color: var(--primary-color);
+}
+
+.title a:active{
   color: var(--primary-color);
 }
 
