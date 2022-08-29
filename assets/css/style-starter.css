@@ -19193,9 +19193,9 @@ p.title-style {
 .icon-effects-w3-4 img,
 .icon-effects-w3-5 img,
 .icon-effects-w3-6 img {
-  -webkit-animation: fa-spin 5s infinite linear;
-  animation: fa-spin 5s infinite linear;
-  width: 32px;
+  -webkit-animation: fa-spin 7s infinite linear;
+  animation: fa-spin 7s infinite linear;
+  width: 50px;
 }
 
 .icon-effects-w3-1 {
