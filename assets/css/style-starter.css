@@ -20102,6 +20102,11 @@ p.inner-page-para {
 .left-wthree-img .position-relative {
   z-index: 1;
 }
+.youtubeVideo {
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
 
 .bg-shape {
   border-radius: 25% 70% 84% 22% / 42% 75% 25% 75%;
