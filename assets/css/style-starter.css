@@ -19187,9 +19187,14 @@ p.title-style {
 }
 
 /* image animation effect */
-.icon-effects-w3-1 img,
+.icon-effects-w3-1 img{}
 .icon-effects-w3-2 img,
-.icon-effects-w3-3 img,
+.icon-effects-w3-3 img{
+  -webkit-animation: fa-spin 7s infinite linear;
+  animation: fa-spin 7s infinite linear;
+  width: 100px;
+
+}
 .icon-effects-w3-4 img,
 .icon-effects-w3-5 img,
 .icon-effects-w3-6 img {
