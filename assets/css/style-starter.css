@@ -298,10 +298,15 @@ kbd {
 }
 
 .iframeBorder {
-  border-radius: 5px;
-  border: 2px solid;
-  border-image: linear-gradient(45deg, #212529, #dc3545) 1;
+  border-radius: 15px;
 }
+
+/* 
+.iframeDIV {
+  resize: horizontal;
+  overflow: auto;
+  margin: 10px auto;
+} */
 
 kbd kbd {
   padding: 0;
