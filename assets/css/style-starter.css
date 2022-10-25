@@ -297,10 +297,47 @@ kbd {
   border-radius: 0.2rem;
 }
 
-.iframeBorder {
-  border-radius: 15px;
+@media screen and (min-width: 100px) and (max-width: 749px) {
+  .iframeBorder {
+    border-radius: 15px;
+    width: 80vw;
+    height: 20vh;
+    padding: 0px 2px 0px 2px;
+  }
 }
 
+@media (min-width: 750px) {
+  .iframeBorder {
+    border-radius: 15px;
+    width: 80vw;
+    height: 30vh;
+    padding: 0px 5px 0px 5px;
+  }
+}
+@media (min-width: 1200px) {
+  .iframeBorder {
+    border-radius: 15px;
+    width: 65vw;
+    height: 45vh;
+    padding: 0px 5px 0px 5px;
+  }
+}
+@media (min-width: 1700px) {
+  .iframeBorder {
+    border-radius: 15px;
+    width: 55vw;
+    height: 50vh;
+    padding: 0px 5px 0px 5px;
+  }
+}
+@media (min-width: 1800px) {
+  .iframeBorder {
+    border-radius: 15px;
+    width: 55vw;
+    height: 50vh;
+    padding: 0px 5px 0px 5px;
+  }
+}
 /* 
 .iframeDIV {
   resize: horizontal;
@@ -19171,7 +19208,7 @@ p.title-style {
   font-size: 70px;
   line-height: 80px;
   font-weight: 700;
-  color: #fff;
+  color: #f0c405;
   text-transform: uppercase;
 }
 
@@ -19187,7 +19224,7 @@ p.title-style {
 .icon-effects-w3-3 img {
   -webkit-animation: fa-spin 7s infinite linear;
   animation: fa-spin 7s infinite linear;
-  width: 100px;
+  width: 50px;
 }
 .icon-effects-w3-4 img,
 .icon-effects-w3-5 img,
@@ -19205,8 +19242,8 @@ p.title-style {
 
 .icon-effects-w3-2 {
   position: absolute;
-  top: 80%;
-  right: 10%;
+  top: 70%;
+  right: 30%;
 }
 
 .icon-effects-w3-3 {
