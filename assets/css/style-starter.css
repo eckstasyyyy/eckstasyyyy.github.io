@@ -300,8 +300,8 @@ kbd {
 @media screen and (min-width: 100px) and (max-width: 749px) {
   .iframeBorder {
     border-radius: 15px;
-    width: 80vw;
-    height: 20vh;
+    width: 85vw;
+    height: 30vh;
     padding: 0px 2px 0px 2px;
   }
 }
@@ -314,6 +314,16 @@ kbd {
     padding: 0px 5px 0px 5px;
   }
 }
+
+@media (min-width: 925px) {
+  .iframeBorder {
+    border-radius: 15px;
+    width: 70vw;
+    height: 35vh;
+    padding: 0px 5px 0px 5px;
+  }
+}
+
 @media (min-width: 1200px) {
   .iframeBorder {
     border-radius: 15px;
