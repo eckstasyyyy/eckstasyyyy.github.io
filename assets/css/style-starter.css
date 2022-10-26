@@ -348,6 +348,17 @@ kbd {
     padding: 0px 5px 0px 5px;
   }
 }
+
+.xoImage {
+  width: 75%;
+}
+
+@media (min-width: 1700px) {
+  .xoImage {
+    width: 45%;
+  }
+}
+
 /* 
 .iframeDIV {
   resize: horizontal;
