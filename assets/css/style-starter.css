@@ -350,12 +350,12 @@ kbd {
 }
 
 .xoImage {
-  width: 75%;
+  width: 85%;
 }
 
 @media (min-width: 1700px) {
   .xoImage {
-    width: 45%;
+    width: 55%;
   }
 }
 
