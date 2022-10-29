@@ -349,13 +349,27 @@ kbd {
   }
 }
 
+@keyframes zoominoutsinglefeatured {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.05, 1.05);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
 .xoImage {
   width: 85%;
+  animation: zoominoutsinglefeatured 10s infinite;
 }
 
 @media (min-width: 1700px) {
   .xoImage {
     width: 55%;
+    animation: zoominoutsinglefeatured 10s infinite;
   }
 }
 
@@ -19193,9 +19207,6 @@ p.title-style {
   }
 }
 
-/* //title style */
-
-/* banner */
 .w3l-banner {
   display: grid;
   align-items: center;
